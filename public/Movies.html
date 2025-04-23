@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./output.css">
+  <title>Homepage</title>
+
+</head>
+<body class="bg-gray-900 text-white">
+  <header class="bg-gray-900 text-white py-4 ">
+    <div class="container mx-auto flex items-center justify-between px-4">
+      <div class="flex items-center">
+        <a href="#" class="font-bold text-xl">DEMOVIE</a>
+      </div>
+  
+      <nav class=" mx-auto md:flex space-x-6">
+        <a href="./Homepage.html" class="hover:text-gray-300">Home</a>
+        <a href="./Movies.html" class="hover:text-gray-300">Movies</a>
+        <a href="./Series.html" class="hover:text-gray-300">TV Series</a>
+        <a href="#" class="hover:text-gray-300">Genre</a>
+      </nav>
+      <div class="flex">
+        <input
+          type="text"
+          placeholder="Search..."
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+        />
+        <button
+          class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          type="button"
+        >
+        <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-6a7 7 0 10-14 0 7 7 0 0014 0z"></path>
+        </svg>
+        </button>
+      </div>
+    </div>
+    </header>
+  
+<!-- Heros Section -->
+    <div class="relative w-full h-96 md:h-128 bg-gray-800 overflow-hidden rounded-lg shadow-lg">
+      <img
+        src="/images/Avengers_Infinity_War_poster.jpg"
+        alt="Hero Movie Image"
+        class="absolute inset-0 w-full h-full object-cover"
+      />
+     
+    </div>
+
+    <!-- catergory section -->
+    <!-- <div class=" flex justify-center space-x-2">
+      <button
+        class="rounded-full border-2 border-yellow-500 text-yellow-500 py-2 px-4 focus:outline-none focus:bg-yellow-500 focus:text-yellow transition duration-200"
+      >
+        Action
+      </button>
+
+      <button
+        class="rounded-full border-2 border-yellow-500 text-yellow-500 py-2 px-4 focus:outline-none focus:bg-yellow-500 focus:text-white transition duration-200"
+      >
+        Adventure
+      </button>
+
+      <button
+        class="rounded-full border-2 border-yellow-500 text-yellow-500 py-2 px-4 focus:outline-none focus:bg-yellow-500 focus:text-white transition duration-200"
+      >
+        Drama
+      </button>
+
+      <button
+        class="rounded-full border-2 border-yellow-500 text-yellow-500 py-2 px-4 focus:outline-none focus:bg-yellow-500 focus:text-white transition duration-200"
+      >
+        Comedy
+      </button>
+
+      <button
+        class="rounded-full border-2 border-yellow-500 text-yellow-500 py-2 px-4 focus:outline-none focus:bg-yellow-500 focus:text-white transition duration-200"
+      >
+        More
+      </button>
+    </div> -->
+
+  <!-- text -->
+
+  <div class="flex">
+    <div class="p-4"> 
+      <div class="bg-gray-900 py-12">
+        <div class="container mx-auto px-4">
+          <h2 class="text-2xl font-bold text-white mb-6">Movies</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div>
+            <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden relative">        
+              <button class="absolute top-2 left-2 bg-yellow-500 text-gray-900 rounded-md py-1 px-2 text-xs font-semibold">Action</button>
+              <img src="images/The_Raid_2011_poster.jpg" alt="Movie Title 1" class="w-full h-48 object-cover">
+              
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-white text-lg mb-2">The Raid</h3>
+              <p class="text-gray-400 text-sm">2011</p>
+              </div>
+          </div>
+    
+            <div>
+            <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden relative">
+              <button class="absolute top-2 left-2 bg-yellow-500 text-gray-900 rounded-md py-1 px-2 text-xs font-semibold">Action</button>
+              <img src="images/mission imposible.jpg" alt="Movie Title 2" class="w-full h-48 object-cover">
+              
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-white text-lg mb-2">Mission: Impossible</h3>
+              <p class="text-gray-400 text-sm">2018</p>
+              </div>
+          </div>
+    
+    
+            <div>
+            <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden relative">
+              <button class="absolute top-2 left-2 bg-yellow-500 text-white rounded-md py-1 px-2 text-xs font-semibold">Sci-Fi</button>
+              <img src="images/inception.jpg" alt="Movie Title 3" class="w-full h-48 object-cover">
+             
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-white text-lg mb-2">Inception</h3>
+              <p class="text-gray-400 text-sm">2010</p>
+              </div>
+          </div>
+    
+           <div>
+            <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden relative">
+              <button class="absolute top-2 left-2 bg-yellow-500 text-white rounded-md py-1 px-2 text-xs font-semibold">Action</button>
+              <img src="images/john wick.jpg" alt="Movie Title 4" class="w-full h-48 object-cover">
+             
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-white text-lg mb-2">John Wick:Chapter 3</h3>
+              <p class="text-gray-400 text-sm">2019</p>
+              </div>
+           </div>
+    
+    
+            <div>
+            <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden relative">
+              <button class="absolute top-2 left-2 bg-yellow-500 text-white rounded-md py-1 px-2 text-xs font-semibold">Sci-Fi</button>
+              <img src="images/black panther.jpg" alt="Movie Title 5" class="w-full h-48 object-cover">
+             
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-white text-lg mb-2">Black Panther</h3>
+              <p class="text-gray-400 text-sm">2018</p>
+              </div>
+          </div>
+    
+    
+            <div>
+            <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden relative">
+              <button class="absolute top-2 left-2 bg-yellow
+              -500 text-white rounded-md py-1 px-2 text-xs font-semibold">Action</button>
+              <img src="images/guardians of the galaxy.jpg" alt="Movie Title 6" class="w-full h-48 object-cover">
+             
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-white text-lg mb-2">Guardians of the Galaxy</h3>
+              <p class="text-gray-400 text-sm">2019</p>
+              </div>
+          </div>
+      
+            <div>
+            <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden relative">
+              <button class="absolute top-2 left-2 bg-yellow-500 text-white rounded-md py-1 px-2 text-xs font-semibold">Sci-Fi</button>
+              <img src="images/venom.jpg" alt="Movie Title 7" class="w-full h-48 object-cover">
+            
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-white text-lg mb-2">Venom</h3>
+              <p class="text-gray-400 text-sm">2018</p>
+              </div>
+          </div>
+      
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="p-4">
+      <div class="bg-gray-900 py-12">
+        <div class="container mx-auto px-4">
+          <h2 class="text-2xl font-bold text-white mb-6">TRENDS NOW</h2>
+          <div class="space-y-6">
+            <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden flex items-center">
+              <img src="images/black panther.jpg" alt="Trendy Movie 1" class="w-48 h-auto object-cover rounded-l-lg">
+              <div class="p-4">
+                <h3 class="font-semibold text-white text-lg mb-2">Black Panther</h3>
+                <p class="text-gray-400 text-sm mb-3">2018</p>
+                <button class="absolute top-2 left-2 bg-yellow-500 text-white rounded-md py-1 px-2 text-xs font-semibold">Action</button>
+              </div>
+            </div>
+      
+            <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden flex items-center">
+              <img src="images/arrival.jpg" alt="Trendy Movie 2" class="w-48 h-auto object-cover rounded-l-lg">
+              <div class="p-4">
+                <h3 class="font-semibold text-white text-lg mb-2">Arrival</h3>
+                <p class="text-gray-400 text-sm mb-3">2016</p>
+                <button class="absolute top-2 left-2 bg-yellow-500 text-white rounded-md py-1 px-2 text-xs font-semibold">Sci-Fi</button>
+              </div>
+            </div>
+      
+            <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden flex items-center">
+              <img src="images/john wick.jpg" alt="Trendy Movie 3" class="w-48 h-auto object-cover rounded-l-lg">
+              <div class="p-4">
+                <h3 class="font-semibold text-white text-lg mb-2">John Wick:Chapter 3</h3>
+                <p class="text-gray-400 text-sm mb-3">2019</p>
+                <button class="absolute top-2 left-2 bg-yellow-500 text-white rounded-md py-1 px-2 text-xs font-semibold">Action</button>
+              </div>
+            </div>
+      
+            <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden flex items-center">
+              <img src="images/deadpool.jpg" alt="Trendy Movie 4" class="w-48 h-auto object-cover rounded-l-lg">
+              <div class="p-4">
+                <h3 class="font-semibold text-white text-lg mb-2">Deadpool</h3>
+                <p class="text-gray-400 text-sm mb-3">2016</p>
+                <button class="absolute top-2 left-2 bg-yellow-500 text-white rounded-md py-1 px-2 text-xs font-semibold">Action</button>
+              </div>
+            </div>
+      
+            <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden flex items-center">
+              <img src="images/venom.jpg" alt="Trendy Movie 5" class="w-48 h-auto object-cover rounded-l-lg">
+              <div class="p-4">
+                <h3 class="font-semibold text-white text-lg mb-2">Venom</h3>
+                <p class="text-gray-400 text-sm mb-3">2018</p>
+                <button class="absolute top-2 left-2 bg-yellow-500 text-white rounded-md py-1 px-2 text-xs font-semibold">Sci-Fi</button>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </div>
+  
+
+  
+</body>
+</html>
